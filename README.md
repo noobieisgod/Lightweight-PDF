@@ -17,7 +17,7 @@ Because the extraction happens locally on your machine first, Claude receives a 
 |---|---|---|
 | Windows | Any | Current install guide is Windows-focused |
 | Claude Desktop | Latest | Required |
-| Tesseract OCR | 5.x | Optional, needed for OCR on scanned pages |
+| Tesseract OCR | 5.x | Required |
 
 ## Installation
 
@@ -27,7 +27,7 @@ Because the extraction happens locally on your machine first, Claude receives a 
 2. Download the ZIP file
 3. Extract the ZIP file
 
-### Step 2: Install Tesseract (optional, for OCR)
+### Step 2: Install Tesseract
 
 Tesseract enables text extraction from scanned or image-only PDF pages.
 
