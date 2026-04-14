@@ -65,15 +65,15 @@ If Tesseract is not installed, scan-like pages fall back to a full-page visual i
 Example prompts:
 
 ```text
-Use Lightweight PDF on C:\Users\Andy\Downloads\report.pdf
+Use Lightweight PDF on PDF_PATH
 ```
 
 ```text
-Use Lightweight PDF on pages 1-3 of C:\Users\Andy\Downloads\report.pdf
+Use Lightweight PDF on pages 1-3 of PDF_PATH
 ```
 
 ```text
-Extract pages 14-16 from this PDF with Lightweight PDF
+Extract pages 14-16 from this PDF with Lightweight PDF: PDF_PATH
 ```
 
 For large PDFs, ask Claude to use page batches such as:
